@@ -1,2 +1,2 @@
 include:
-  - unraid/debrid-core/zurg.yml
+  - /debrid-core/zurg.yml
