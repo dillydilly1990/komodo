@@ -1,2 +1,2 @@
 include:
-  - /komodo/unraid/debrid-core/zurg.yml
+  - unraid/debrid-core/zurg.yml
