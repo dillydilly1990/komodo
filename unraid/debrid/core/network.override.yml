@@ -1,0 +1,8 @@
+services:
+  zurg:
+    networks:
+      - debrid-media
+  rclone:
+    networks:
+      - debrid-media
+    
