@@ -3,8 +3,6 @@ services:
     image: ghcr.io/debridmediamanager/zurg-testing:latest    
     container_name: zurg
     restart: unless-stopped
-    networks:
-      - plexarr
     environment:
       TZ: America/Detroit
       PUID: 100
@@ -20,8 +18,6 @@ services:
     image: rclone/rclone:latest
     container_name: rclone
     restart: unless-stopped
-    networks:
-      - plexarr
     environment:
       TZ: America/Detroit
       PUID: 100
