@@ -1,5 +1,0 @@
-services:
-  zurg:
-    labels:
-      - net.unraid.docker.webui=http://${SERVER_IP:?err}:9999
-#      - net.unraid.docker.icon=
