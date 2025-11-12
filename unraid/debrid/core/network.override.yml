@@ -5,8 +5,8 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: ${DEBRID-MEDIA_SUBNET:?err}
-          gateway: ${DEBRID-MEDIA_GATEWAY:?err}
+        - subnet: ${DEBRID_MEDIA_SUBNET:?err}
+          gateway: ${DEBRID_MEDIA_GATEWAY:?err}
 services:
   zurg:
     networks:
